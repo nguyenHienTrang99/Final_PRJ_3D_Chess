@@ -1,5 +1,4 @@
-// Di chuyển quanh không gian 3 chiều bằng các phím W , A , S , D 
-// Tăng kích thước và giảm kích thược bàn cờ trong không gian 3 chiều vs nút > và < 
+
 function moveCamera() {
     if (keyIsDown(190)) scaleSize += 0.05;
     if (keyIsDown(188)) scaleSize -= 0.05;
